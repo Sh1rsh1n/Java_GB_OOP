@@ -3,16 +3,16 @@ package homeworks.task1.vending;
 import homeworks.task1.products.Product;
 import java.util.*;
 
-public class VendingMachine {
+public abstract class VendingMachine {
     private Map<Integer, Product> productMap;
 	
     public VendingMachine(Map<Integer, Product>) {
        this.productMap = productMap;
     }
 
-   public void showAllProduct() {
-   	System.out.println("Список продуктов: ");
-   	for (Map.Entity<Integer, Product> entry : productMap.entrySet()) {
+	public void showAllProduct() {
+   		System.out.println("Список продуктов: ");
+   		for (Map.Entity<Integer, Product> entry : productMap.entrySet()) {
 	   		System.out.printf("Номер %d - Название: %s", entry.getKey(), entry.getValue().getTitle());
 		}
 	}

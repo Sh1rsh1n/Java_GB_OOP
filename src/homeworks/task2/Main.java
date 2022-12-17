@@ -1,7 +1,7 @@
 
-public class Main{
-	/*
-	Имеются данные о группе студентов. У каждого студента есть средний балл (например, 4.6).
+
+/*
+Имеются данные о группе студентов. У каждого студента есть средний балл (например, 4.6).
 Создайте родительский класс ЗаписывательВФайл. Создайте три детских класса, которые записывают в файл информацию о студентах в разных формах:
 Просто текст:
 Иван Иванов=4.8
@@ -30,9 +30,18 @@ XML:
 </student>
 </students>
 	*/
-    public static void main(String args[]){
 
-        
+public class Main{
+
+    public static void main(String args[]){
+	List<Student> listStudents = new ArrayList<>();
+	listStudents.add(new Student("Антон", "Иванов", 4.5));
+	listStudents.add(new Student("Анна", "Попова", 4.7));
+       listStudents.add(new Student("Кирилл", "Кузьмин", 3.8));
+	listStudents.add(new Student("Петр", "Попов", 3.5));
+	listStudents.add(new Student("Дмитрий", "Козлов", 4.2));
+	
+	
     }
 }
 
