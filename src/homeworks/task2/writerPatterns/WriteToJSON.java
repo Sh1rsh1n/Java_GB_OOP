@@ -1,9 +1,10 @@
+package homeworks.task2.writerPatterns;
 
-public class WriteToJSON implements WriteToFile {
+public class WriteToJSON implements WriteTo {
 
-	public void writeTo(String text) {
-		
-	}
+    public void write() {
+
+    }
 }
 
 

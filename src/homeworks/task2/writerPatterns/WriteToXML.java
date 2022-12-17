@@ -1,7 +1,9 @@
+package homeworks.task2.writerPatterns;
 
-public class WriteToXML implements WriteToFile {
 
-	public void writeTo(String text){
+public class WriteToXML implements WriteTo {
+
+	public void write(){
 		
 	}
 }
