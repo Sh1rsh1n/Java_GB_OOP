@@ -1,6 +1,6 @@
 package homeworks.task1.products;
 
-public class HotDrink extends Product{
+public class HotDrink extends Product {
 
     private int temprature;
 
@@ -13,12 +13,8 @@ public class HotDrink extends Product{
         return temprature;
     }
 
-    public void setTemprature(int temprature) {
-        this.temprature = temprature;
-    }
-
     @Override
     public String toString() {
-        return String.format("{ Напиток: %s, Цена: %d }", super.getTitle(), super.getPrice());
+        return String.format(">>> Напиток: %s, Цена: %d, Teмпература: %d <<<", super.getTitle(), super.getPrice(), temprature);
     }
 }

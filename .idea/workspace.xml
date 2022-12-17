@@ -2,17 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9520472-f4c4-49e7-bbb2-dfecfaf1f5ba" name="Changes" comment="inti commit #1">
-      <change afterPath="$PROJECT_DIR$/src/seminars/seminar2/task1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminars/seminar2/task1/weapon/Bow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminars/seminar2/task1/weapon/MachineGun.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminars/seminar2/task1/weapon/PistolWeapon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminars/seminar2/task1/weapon/Weapon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminars/seminar2/task2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminars/seminar2/task2/employee/Company.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminars/seminar2/task2/employee/Designer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminars/seminar2/task2/employee/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminars/seminar2/task2/employee/Programmer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homeworks/task1/ReadMe.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homeworks/task1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeworks/task1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homeworks/task1/exceptions/NoProductException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homeworks/task1/products/HotDrink.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeworks/task1/products/HotDrink.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homeworks/task1/products/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeworks/task1/products/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homeworks/task1/vending/HotDrinkVendingMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeworks/task1/vending/HotDrinkVendingMachine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homeworks/task1/vending/VendingMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeworks/task1/vending/VendingMachine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homeworks/task2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeworks/task2/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homeworks/task2/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeworks/task2/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homeworks/task2/writerPatterns/WriteToFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeworks/task2/writerPatterns/WriteToFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homeworks/task2/writerPatterns/WriteToJSON.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeworks/task2/writerPatterns/WriteToJSON.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homeworks/task2/writerPatterns/WriteToTextFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeworks/task2/writerPatterns/WriteToTextFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homeworks/task2/writerPatterns/WriteToXML.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeworks/task2/writerPatterns/WriteToXML.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +51,7 @@
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.seminars.seminar2.task2.Main">
+  <component name="RunManager" selected="Application.homeworks.task1.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="seminars.seminar1.task1.Main" />
       <module name="geekbrains" />
@@ -103,9 +106,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.homeworks.task1.Main" />
         <item itemvalue="Application.seminars.seminar2.task2.Main" />
         <item itemvalue="Application.seminars.seminar2.task1.Main" />
-        <item itemvalue="Application.homeworks.task1.Main" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -125,6 +128,7 @@
       <workItem from="1671129803073" duration="6000" />
       <workItem from="1671129821097" duration="94000" />
       <workItem from="1671209757123" duration="7665000" />
+      <workItem from="1671293265641" duration="9111000" />
     </task>
     <task id="LOCAL-00001" summary="inti commit">
       <created>1671124722078</created>
@@ -147,7 +151,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671129761170</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="inti commit #1">
+      <created>1671293287673</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1671293287673</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

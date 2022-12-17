@@ -1,7 +1,5 @@
 package homeworks.task1.products;
 
-import java.util.Objects;
-
 public class Product {
     private String title;
     private int price;
@@ -17,5 +15,10 @@ public class Product {
 
     public int getPrice() {
         return price;
+    }
+
+    @Override
+    public String toString() {
+        return String.format("Продукт: %s, Цена: %d", title, price);
     }
 }
