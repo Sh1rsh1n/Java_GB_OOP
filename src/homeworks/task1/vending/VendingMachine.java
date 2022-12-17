@@ -1,34 +1,29 @@
 package homeworks.task1.vending;
 
 import homeworks.task1.products.Product;
-
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 
 public class VendingMachine {
-    List<Product> productList = new ArrayList<>();
-
-    private int deposit;
-    public VendingMachine() {
-        this.deposit = 0;
+    private Map<Integer, Product> productMap;
+	
+    public VendingMachine(Map<Integer, Product>) {
+       this.productMap = productMap;
     }
 
-    public void addProductTitle(Product product) {
-        productList.add(product);
-    }
+   public void showAllProduct() {
+   	System.out.println("Список продуктов: ");
+   	for (Map.Entity<Integer, Product> entry : productMap.entrySet()) {
+	   		System.out.printf("Номер %d - Название: %s", entry.getKey(), entry.getValue().getTitle());
+		}
+	}
 
-    public void showProductList() {
-        System.out.println("Список всех товаров:");
-        for (Product product : productList ) {
-            System.out.println(product);
-        }
-    }
-
-    public int getDeposit() {
-        return deposit;
-    }
-
-    public void setDeposit(int deposit) {
-        this.deposit = deposit;
-    }
+	public Product getProductById(int productId) {
+		for (Map.Entity<Integer, Product> entry : productMap.entrySet()) {
+			if (entry.getKey() == productId) {
+				return entry.getValue();
+			}
+		}
+		throw new NoProductException("Продукт не найден");
+	}
+   }
 }
