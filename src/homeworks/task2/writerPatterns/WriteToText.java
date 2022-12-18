@@ -8,7 +8,7 @@ import java.util.List;
 
 public class WriteToText implements WriteTo {
 
-    List<Student> studentList;
+    private List<Student> studentList;
 
     public WriteToText(List<Student> studentList) {
         this.studentList = studentList;
@@ -16,9 +16,9 @@ public class WriteToText implements WriteTo {
 
     public void write() {
 
-        try (FileWriter fileWriter = new FileWriter("src//homeworks//task2//text.txt", true)) {
-            for (Student student: studentList) {
-                fileWriter.write(String.format("%s %s=%s", student.getName(), student.getSurname(), student.getAvgGrade()));
+        try (FileWriter fileWriter = new FileWriter("src//homeworks//task2//studentList.txt", true)) {
+		String text = makeText();
+                fileWriter.write(text);
                 fileWriter.append('\n');
                 fileWriter.flush();
             }
@@ -26,6 +26,14 @@ public class WriteToText implements WriteTo {
             throw new RuntimeException(e);
         }
     }
+	
+	public StringBuilder makeText() {
+		StringBuilder sb = new StringBuilder();
+	
+		for (Student student: studentList) {
+			sb.append(String.format("%s %s=%s", student.getName(), student.getSurname(), student.getAvgGrade()));
+		}
+		return sb;
 }
 
 
