@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<students>
+	<student>
+		<name>Антон</name>
+		<surname>Иванов</surname>
+		<avggrade>4.5</avggrade>
+	</student>
+	<student>
+		<name>Анна</name>
+		<surname>Попова</surname>
+		<avggrade>4.7</avggrade>
+	</student>
+	<student>
+		<name>Кирилл</name>
+		<surname>Кузьмин</surname>
+		<avggrade>3.8</avggrade>
+	</student>
+	<student>
+		<name>Петр</name>
+		<surname>Попов</surname>
+		<avggrade>3.5</avggrade>
+	</student>
+	<student>
+		<name>Дмитрий</name>
+		<surname>Козлов</surname>
+		<avggrade>4.2</avggrade>
+	</student>
+<students>
