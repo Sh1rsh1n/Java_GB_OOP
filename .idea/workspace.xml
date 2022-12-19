@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c9520472-f4c4-49e7-bbb2-dfecfaf1f5ba" name="Changes" comment="Task1 update #2">
-      <change afterPath="$PROJECT_DIR$/src/homeworks/task2/ReadMe.md" afterDir="false" />
+    <list default="true" id="c9520472-f4c4-49e7-bbb2-dfecfaf1f5ba" name="Changes" comment="Task2 update #1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/homeworks/task2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeworks/task2/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homeworks/task2/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeworks/task2/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homeworks/task2/writerPatterns/WriteToFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeworks/task2/writerPatterns/WriteToFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homeworks/task2/ReadMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeworks/task2/ReadMe.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homeworks/task2/writerPatterns/WriteTo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeworks/task2/writerPatterns/WriteTo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/homeworks/task2/writerPatterns/WriteToJSON.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeworks/task2/writerPatterns/WriteToJSON.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homeworks/task2/writerPatterns/WriteToTextFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeworks/task2/writerPatterns/WriteToTextFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homeworks/task2/writerPatterns/WriteToText.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeworks/task2/writerPatterns/WriteToText.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/homeworks/task2/writerPatterns/WriteToXML.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeworks/task2/writerPatterns/WriteToXML.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -143,7 +142,8 @@
       <workItem from="1671129821097" duration="94000" />
       <workItem from="1671209757123" duration="7665000" />
       <workItem from="1671293265641" duration="9529000" />
-      <workItem from="1671304136101" duration="2108000" />
+      <workItem from="1671304136101" duration="2628000" />
+      <workItem from="1671380451483" duration="3535000" />
     </task>
     <task id="LOCAL-00001" summary="inti commit">
       <created>1671124722078</created>
@@ -180,7 +180,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671303274055</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Task2 update #1">
+      <created>1671306769663</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1671306769663</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -201,6 +208,7 @@
     <MESSAGE value="inti commit" />
     <MESSAGE value="inti commit #1" />
     <MESSAGE value="Task1 update #2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Task1 update #2" />
+    <MESSAGE value="Task2 update #1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task2 update #1" />
   </component>
 </project>
