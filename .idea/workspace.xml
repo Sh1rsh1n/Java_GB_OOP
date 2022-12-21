@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c9520472-f4c4-49e7-bbb2-dfecfaf1f5ba" name="Changes" comment="Task2 update #1">
+    <list default="true" id="c9520472-f4c4-49e7-bbb2-dfecfaf1f5ba" name="Changes" comment="Task2 update #3">
+      <change afterPath="$PROJECT_DIR$/src/homeworks/task3/Group.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homeworks/task3/GroupListIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homeworks/task3/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homeworks/task3/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seminars/seminar3/task1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seminars/seminar3/task1/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seminars/seminar3/task1/StudentGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seminars/seminar3/task1/StudentGroupIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seminars/seminar3/task3/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homeworks/task2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeworks/task2/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homeworks/task2/ReadMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeworks/task2/ReadMe.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homeworks/task2/writerPatterns/WriteTo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeworks/task2/writerPatterns/WriteTo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homeworks/task2/writerPatterns/WriteToJSON.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeworks/task2/writerPatterns/WriteToJSON.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homeworks/task2/writerPatterns/WriteToText.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeworks/task2/writerPatterns/WriteToText.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homeworks/task2/writerPatterns/WriteToXML.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeworks/task2/writerPatterns/WriteToXML.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,13 +53,13 @@
       <recent name="C:\Users\Sh1rer\Desktop\OOP_Java\geekbrains\src\homeworks\task2\writerPatterns" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.homeworks.task2.Main">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="seminars.seminar1.task1.Main" />
+      <option name="MAIN_CLASS_NAME" value="seminars.seminar3.task3.Main" />
       <module name="geekbrains" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="seminars.seminar1.task1.*" />
+          <option name="PATTERN" value="seminars.seminar3.task3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,19 +93,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="seminars.seminar2.task1.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="seminars.seminar2.task1.Main" />
-      <module name="geekbrains" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="seminars.seminar2.task1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="seminars.seminar2.task2.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="seminars.seminar2.task2.Main" />
       <module name="geekbrains" />
@@ -116,13 +106,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="seminars.seminar3.task1.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="seminars.seminar3.task1.Main" />
+      <module name="geekbrains" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="seminars.seminar3.task1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.seminars.seminar3.task1.Main" />
         <item itemvalue="Application.homeworks.task2.Main" />
         <item itemvalue="Application.homeworks.task1.Main" />
         <item itemvalue="Application.seminars.seminar2.task2.Main" />
-        <item itemvalue="Application.seminars.seminar2.task1.Main" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -143,7 +146,9 @@
       <workItem from="1671209757123" duration="7665000" />
       <workItem from="1671293265641" duration="9529000" />
       <workItem from="1671304136101" duration="2628000" />
-      <workItem from="1671380451483" duration="3535000" />
+      <workItem from="1671380451483" duration="3670000" />
+      <workItem from="1671554403117" duration="7675000" />
+      <workItem from="1671642263316" duration="2632000" />
     </task>
     <task id="LOCAL-00001" summary="inti commit">
       <created>1671124722078</created>
@@ -187,7 +192,21 @@
       <option name="project" value="LOCAL" />
       <updated>1671306769663</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Task2 update #3">
+      <created>1671385107838</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1671385107839</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Task2 update #3">
+      <created>1671385138117</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1671385138117</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -209,6 +228,7 @@
     <MESSAGE value="inti commit #1" />
     <MESSAGE value="Task1 update #2" />
     <MESSAGE value="Task2 update #1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Task2 update #1" />
+    <MESSAGE value="Task2 update #3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task2 update #3" />
   </component>
 </project>
