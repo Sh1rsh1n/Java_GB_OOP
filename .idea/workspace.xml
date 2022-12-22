@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="c9520472-f4c4-49e7-bbb2-dfecfaf1f5ba" name="Changes" comment="Task2 update #3">
-      <change afterPath="$PROJECT_DIR$/src/homeworks/task3/Group.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homeworks/task3/GroupListIterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homeworks/task3/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homeworks/task3/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminars/seminar3/task1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminars/seminar3/task1/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminars/seminar3/task1/StudentGroup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminars/seminar3/task1/StudentGroupIterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminars/seminar3/task3/Main.java" afterDir="false" />
+    <list default="true" id="c9520472-f4c4-49e7-bbb2-dfecfaf1f5ba" name="Changes" comment="Task3 update #1">
+      <change afterPath="$PROJECT_DIR$/src/homeworks/task3/iter/GroupListIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homeworks/task3/iter/StudentGroup.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homeworks/task3/Group.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homeworks/task3/GroupListIterator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homeworks/task3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeworks/task3/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homeworks/task3/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeworks/task3/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/seminars/seminar3/task1/StudentGroupIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/seminars/seminar3/task1/StudentGroupIterator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,21 +40,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.general"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Sh1rer\Desktop\OOP_Java\geekbrains\src\homeworks\task2" />
       <recent name="C:\Users\Sh1rer\Desktop\OOP_Java\geekbrains\src\homeworks\task2\writerPatterns" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.homeworks.task3.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="seminars.seminar3.task3.Main" />
       <module name="geekbrains" />
@@ -93,12 +95,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="seminars.seminar2.task2.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="seminars.seminar2.task2.Main" />
+    <configuration name="homeworks.task3.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homeworks.task3.Main" />
       <module name="geekbrains" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="seminars.seminar2.task2.*" />
+          <option name="PATTERN" value="homeworks.task3.iter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,11 +123,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.homeworks.task3.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.seminars.seminar3.task1.Main" />
         <item itemvalue="Application.homeworks.task2.Main" />
         <item itemvalue="Application.homeworks.task1.Main" />
-        <item itemvalue="Application.seminars.seminar2.task2.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -148,7 +150,9 @@
       <workItem from="1671304136101" duration="2628000" />
       <workItem from="1671380451483" duration="3670000" />
       <workItem from="1671554403117" duration="7675000" />
-      <workItem from="1671642263316" duration="2632000" />
+      <workItem from="1671642263316" duration="3885000" />
+      <workItem from="1671648922085" duration="496000" />
+      <workItem from="1671729984438" duration="8872000" />
     </task>
     <task id="LOCAL-00001" summary="inti commit">
       <created>1671124722078</created>
@@ -206,7 +210,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671385138117</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Task3 update #1">
+      <created>1671648883920</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1671648883920</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -229,6 +240,32 @@
     <MESSAGE value="Task1 update #2" />
     <MESSAGE value="Task2 update #1" />
     <MESSAGE value="Task2 update #3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Task2 update #3" />
+    <MESSAGE value="Task3 update #1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task3 update #1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/homeworks/task3/Main.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/homeworks/task3/Main.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/homeworks/task3/Main.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

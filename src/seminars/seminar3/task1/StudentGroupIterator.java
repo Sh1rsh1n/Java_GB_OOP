@@ -11,7 +11,6 @@ public class StudentGroupIterator implements Iterator<Student> {
     public StudentGroupIterator(StudentGroup studentGroup) {
         this.studentGroup = studentGroup;
     }
-
     @Override
     public boolean hasNext() {
         return index < studentGroup.studentCount();
