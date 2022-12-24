@@ -1,7 +1,8 @@
 package homeworks.task3;
 
-import java.time.LocalDate;
-
+/*
+POJO-class описание студента
+ */
 public class Student {
     private String name;
     private String surname;
