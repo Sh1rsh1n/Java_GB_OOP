@@ -4,13 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c9520472-f4c4-49e7-bbb2-dfecfaf1f5ba" name="Changes" comment="Task3 final">
-      <change afterPath="$PROJECT_DIR$/src/homeworks/task4/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homeworks/task4/checks/BeginsWith.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homeworks/task4/checks/BeginsWithA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homeworks/task4/checks/IsEven.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homeworks/task4/checks/IsGood.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homeworks/task4/checks/IsPositive.java" afterDir="false" />
+    <list default="true" id="c9520472-f4c4-49e7-bbb2-dfecfaf1f5ba" name="Changes" comment="Task4 complite">
+      <change afterPath="$PROJECT_DIR$/src/lectures/lecture5/task1/CalcModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lectures/lecture5/task1/Model.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lectures/lecture5/task1/Presenter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lectures/lecture5/task1/PresenterOfT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lectures/lecture5/task1/Program.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lectures/lecture5/task1/SumModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lectures/lecture5/task1/View.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lectures/lecture5/task1/mvp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lectures/lecture5/task2/Client/Program.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lectures/lecture5/task2/Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lectures/lecture5/task2/Core/Infrastructure/Phonebook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lectures/lecture5/task2/Core/MVP/Model.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lectures/lecture5/task2/Core/MVP/Presenter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lectures/lecture5/task2/Core/MVP/View.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lectures/lecture5/task2/Core/Models/Contact.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lectures/lecture5/task2/UI/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lectures/lecture5/task2/UI/ConsoleView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lectures/lecture5/task2/UI/NewConsoleView.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,16 +52,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.general&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Sh1rer/Desktop/OOP_Java/geekbrains/src/lectures/lecture5/task2",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.general"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Sh1rer\Desktop\OOP_Java\geekbrains\src\lectures\lecture5\task2" />
+      <recent name="C:\Users\Sh1rer\Desktop\OOP_Java\geekbrains\src\lectures\lecture5\task1" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Sh1rer\Desktop\OOP_Java\geekbrains\src\homeworks\task2" />
       <recent name="C:\Users\Sh1rer\Desktop\OOP_Java\geekbrains\src\homeworks\task2\writerPatterns" />
@@ -155,7 +172,10 @@
       <workItem from="1671729984438" duration="9173000" />
       <workItem from="1671813929902" duration="8867000" />
       <workItem from="1671825064982" duration="3051000" />
-      <workItem from="1671869549769" duration="8179000" />
+      <workItem from="1671869549769" duration="8427000" />
+      <workItem from="1672579513026" duration="49000" />
+      <workItem from="1673108735112" duration="88000" />
+      <workItem from="1673456077580" duration="3697000" />
     </task>
     <task id="LOCAL-00001" summary="inti commit">
       <created>1671124722078</created>
@@ -234,7 +254,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671870601262</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Task4 complite">
+      <created>1671889772130</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1671889772130</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -260,7 +287,8 @@
     <MESSAGE value="Task3 update #1" />
     <MESSAGE value="Task3 try #1" />
     <MESSAGE value="Task3 final" />
-    <option name="LAST_COMMIT_MESSAGE" value="Task3 final" />
+    <MESSAGE value="Task4 complite" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task4 complite" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
