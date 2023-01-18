@@ -1,0 +1,6 @@
+public class MainTask1{
+    public static void main(String[] args){
+        MyPhone myPhone = new MyPhone(new FaceIDUnlocker);
+        myPhone.getPhoneUnlocker().unlock();
+    }
+}
