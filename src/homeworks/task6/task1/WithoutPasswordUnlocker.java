@@ -1,3 +1,5 @@
+package homeworks.task6.task1;
+
 public class WithoutPasswordUnlocker implements PhoneUnlocker{
     
     @Override
