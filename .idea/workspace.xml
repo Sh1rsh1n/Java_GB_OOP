@@ -4,44 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c9520472-f4c4-49e7-bbb2-dfecfaf1f5ba" name="Changes" comment="Lecture5">
-      <change afterPath="$PROJECT_DIR$/src/seminars/seminar6/task1/dip/Device.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminars/seminar6/task1/dip/Lamp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminars/seminar6/task1/dip/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminars/seminar6/task1/dip/Switch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminars/seminar6/task1/isp/ConsoleUI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminars/seminar6/task1/isp/DepositOperation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminars/seminar6/task1/isp/TransferOperation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminars/seminar6/task1/isp/UI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminars/seminar6/task1/isp/WithdrawOperation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminars/seminar6/task1/lsp/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminars/seminar6/task1/lsp/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminars/seminar6/task1/lsp/Square.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminars/seminar6/task1/lsp/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminars/seminar6/task1/ocp/CircleShape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminars/seminar6/task1/ocp/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminars/seminar6/task1/ocp/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminars/seminar6/task1/ocp/SquareShape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminars/seminar6/task1/ocp/SquareShapeAnotherColor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminars/seminar6/task1/ocp/Triangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminars/seminar6/task1/srp/CalcApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminars/seminar6/task1/srp/CalcRectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminars/seminar6/task1/srp/DrawRectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminars/seminar6/task1/srp/GraphicalApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminars/seminar6/task1/srp/GraphicsLibrary.java" afterDir="false" />
+    <list default="true" id="c9520472-f4c4-49e7-bbb2-dfecfaf1f5ba" name="Changes" comment="seminar6 &amp; homework6 files">
+      <change afterPath="$PROJECT_DIR$/src/homeworks/task6/MainTask2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homeworks/task6/task2/MutableList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homeworks/task6/MainTask1" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeworks/task6/MainTask1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homeworks/task6/task1/FaceIDUnlocker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeworks/task6/task1/FaceIDUnlocker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homeworks/task6/task1/FingerPrintUnlocker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeworks/task6/task1/FingerPrintUnlocker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homeworks/task6/task1/MyPhone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeworks/task6/task1/MyPhone.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homeworks/task6/task1/PhoneUnlocker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeworks/task6/task1/PhoneUnlocker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homeworks/task6/task1/PinCodeUnlocker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeworks/task6/task1/PinCodeUnlocker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homeworks/task6/task1/WithoutPasswordUnlocker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeworks/task6/task1/WithoutPasswordUnlocker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homeworks/task6/task2/ImmutableList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeworks/task6/task2/ImmutableList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homeworks/task6/task2/List.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeworks/task6/task2/List.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="module" />
+    </option>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -200,7 +178,8 @@
       <workItem from="1673766456602" duration="635000" />
       <workItem from="1673797987180" duration="283000" />
       <workItem from="1673974610283" duration="6642000" />
-      <workItem from="1674069413614" duration="332000" />
+      <workItem from="1674069413614" duration="699000" />
+      <workItem from="1674151276475" duration="1932000" />
     </task>
     <task id="LOCAL-00001" summary="inti commit">
       <created>1671124722078</created>
@@ -300,7 +279,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673765228330</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="seminar6 &amp; homework6 files">
+      <created>1674070099739</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1674070099739</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -328,7 +314,8 @@
     <MESSAGE value="Task3 final" />
     <MESSAGE value="Task4 complite" />
     <MESSAGE value="Lecture5" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lecture5" />
+    <MESSAGE value="seminar6 &amp; homework6 files" />
+    <option name="LAST_COMMIT_MESSAGE" value="seminar6 &amp; homework6 files" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
