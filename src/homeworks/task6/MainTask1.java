@@ -7,8 +7,8 @@ public class MainTask1{
 
         PhoneUnlocker[] phoneUnlockers = {new FaceIDUnlocker(), new PinCodeUnlocker(), new FingerPrintUnlocker(), new WithoutPasswordUnlocker()};
 
-        for (PhoneUnlocker phoneUnlocker: phoneUnlockers) {
-            new MyPhone(phoneUnlocker).getPhoneUnlocker().unlock();
+        for (PhoneUnlocker unlocker: phoneUnlockers) {
+            new MyPhone(unlocker).getPhoneUnlocker().unlock();
             System.out.println("******************************");
         }
     }

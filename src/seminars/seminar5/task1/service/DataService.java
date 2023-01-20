@@ -10,5 +10,7 @@ public interface DataService<U extends User> {
 
     void save();
 
-    List<U> load();
+    void load();
+
+    List<U> getUsers();
 }

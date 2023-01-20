@@ -1,5 +1,6 @@
 package seminars.seminar5.task1;
 
+import seminars.seminar5.task1.controller.StudentController;
 import seminars.seminar5.task1.model.Student;
 import seminars.seminar5.task1.service.StudentService;
 import seminars.seminar5.task1.ui.StudentView;
@@ -20,8 +21,22 @@ import java.util.List;
 public class Main {
     public static void main(String[] args) {
 
-        new StudentView(new StudentService()).showStudents();
+//        StudentService studentService = new StudentService();
+//        studentService.addUser(new Student("Alexey", "Popov", 23, 2, 4.5f));
+//        studentService.addUser(new Student("Denis", "Popov", 23, 2, 4.5f));
+//        studentService.addUser(new Student("Ivan", "Popov", 23, 2, 4.5f));
+//        studentService.addUser(new Student("Petr", "Popov", 23, 2, 4.5f));
+//
+//        studentService.save();
+//
+//        studentService.load();
+//
+//        new StudentView(studentService).showUsers();
 
+        StudentService model = new StudentService();
+        StudentController studentController = new StudentController(model, new StudentView(model));
+
+        studentController.showMenu();
 
     }
 }

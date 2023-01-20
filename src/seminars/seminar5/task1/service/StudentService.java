@@ -13,6 +13,10 @@ public class StudentService implements DataService<Student> {
 
     private List<Student> students = new ArrayList<>();
 
+    public List<Student> getUsers() {
+        return new ArrayList<>(students);
+    }
+
     @Override
     public void addUser(Student student) {
         students.add(student);
@@ -24,7 +28,7 @@ public class StudentService implements DataService<Student> {
     }
 
     @Override
-    public List<Student> load() {
-        return DataReader.dataRead(path);
+    public void load() {
+        students = DataReader.dataRead(path);
     }
 }

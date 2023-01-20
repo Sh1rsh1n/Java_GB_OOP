@@ -21,6 +21,11 @@ public class MainTask2 {
         immList.getSize();
         immList.get(2);
         System.out.println("**********************************");
+        int count = 0;
+        for (Object st: immList.getList()) {
+            System.out.printf("%d. %s\n", count++, (String) st);
+        }
+        System.out.println("**********************************");
         
         
         MutableList<String> mutList = new MutableList<>(list);
@@ -30,6 +35,11 @@ public class MainTask2 {
         mutList.get(1);
         mutList.add("Boat");
         mutList.remove("Car");
+        System.out.println("**********************************");
+        count = 0;
+        for (Object st: mutList.getList()) {
+            System.out.printf("%d. %s\n", count++, (String) st);
+        }
         System.out.println("**********************************");
     }
 }

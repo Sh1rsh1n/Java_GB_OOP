@@ -1,6 +1,6 @@
 package homeworks.task6.task2;
 
-public interface CustomList{
-    void getSize();
-    void get(int index);
+public interface CustomList<T>{
+    int getSize();
+    T get(int index);
 }
