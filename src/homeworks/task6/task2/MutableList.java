@@ -1,33 +1,37 @@
 package homeworks.task6.task2;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class MutableList<T> extends BaseList{
-    
+    private List<T> list;
+
     public MutableList(List<T> list) {
-        super(list);
+        this.list = new ArrayList<>(list);
     }
 
     @Override
     public void getSize() {
-        System.out.println("Размер изменяемой коллекции: %d", list.size());
+        System.out.printf("Размер изменяемой коллекции: %d\n", list.size());
     }
 
     @Override
     public void get(int index) {
-        System.out.printf("Элемент изменяемой коллекции по индексу %d: %s", index, list.get(index));
+        System.out.printf("Элемент изменяемой коллекции по индексу %d: %s\n", index, list.get(index));
     }
     
     public void set(int index, T value) { 
         list.set(index, value);
-        System.out.println("Успешное изменение элемента");
+        System.out.printf("Успешное изменение элемента с индексом: %d на значение: %s\n", index, value);
     }
     
     public void add(T value){
         list.add(value);
-        System.out.println("Успешное добавление элемента");
+        System.out.printf("Успешное добавление элемента: %s\n", value);
     }
     
     public void remove(T value){
         list.remove(value);
-        System.out.println("Успешное удаление элемента");
+        System.out.printf("Успешное удаление элемента: %s\n", value);
     }
 }

@@ -1,8 +1,14 @@
 package homeworks.task6;
 
+import homeworks.task6.task2.ImmutableList;
+import homeworks.task6.task2.MutableList;
+
+import java.util.ArrayList;
+import java.util.List;
+
 public class MainTask2 {
     public static void main(String[] args) {
-        List<String> list = new ArrayList();
+        List<String> list = new ArrayList<>();
         list.add("Bicycle");
         list.add("Bike");
         list.add("Car");
@@ -11,13 +17,13 @@ public class MainTask2 {
         list.add("Plain");
         list.add("Train");
         
-        ImmutableList<String> immList = new ImmutableList(list);
+        ImmutableList<String> immList = new ImmutableList<>(list);
         immList.getSize();
         immList.get(2);
         System.out.println("**********************************");
         
         
-        MutableList<String> mutList = new MutableList(list);
+        MutableList<String> mutList = new MutableList<>(list);
         mutList.getSize();
         mutList.get(1);
         mutList.set(1, "SuperBike");

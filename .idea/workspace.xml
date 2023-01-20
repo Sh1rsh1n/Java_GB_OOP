@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c9520472-f4c4-49e7-bbb2-dfecfaf1f5ba" name="Changes" comment="seminar6 &amp; homework6 files">
-      <change afterPath="$PROJECT_DIR$/src/homeworks/task6/MainTask2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homeworks/task6/task2/MutableList.java" afterDir="false" />
+    <list default="true" id="c9520472-f4c4-49e7-bbb2-dfecfaf1f5ba" name="Changes" comment="updaet task6 homeworks">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homeworks/task6/MainTask2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeworks/task6/MainTask2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homeworks/task6/task2/BaseList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeworks/task6/task2/BaseList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/homeworks/task6/task2/ImmutableList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeworks/task6/task2/ImmutableList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homeworks/task6/task2/List.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeworks/task6/task2/List.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homeworks/task6/task2/MutableList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeworks/task6/task2/MutableList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,13 +65,13 @@
       <recent name="C:\Users\Sh1rer\Desktop\OOP_Java\geekbrains\src\homeworks\task2\writerPatterns" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MainTask1">
-    <configuration name="GraphicalApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="seminars.seminar6.task1.srp.GraphicalApp" />
+  <component name="RunManager" selected="Application.MainTask2">
+    <configuration name="MainTask1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homeworks.task6.MainTask1" />
       <module name="geekbrains" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="seminars.seminar6.task1.srp.*" />
+          <option name="PATTERN" value="homeworks.task6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -79,8 +79,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainTask1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homeworks.task6.MainTask1" />
+    <configuration name="MainTask2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homeworks.task6.MainTask2" />
       <module name="geekbrains" />
       <extension name="coverage">
         <pattern>
@@ -133,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainTask2" />
         <item itemvalue="Application.MainTask1" />
         <item itemvalue="Application.seminars.seminar6.task1.dip.Main" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.seminars.seminar6.task1.ocp.Main" />
-        <item itemvalue="Application.GraphicalApp" />
       </list>
     </recent_temporary>
   </component>
@@ -180,6 +180,8 @@
       <workItem from="1673974610283" duration="6642000" />
       <workItem from="1674069413614" duration="699000" />
       <workItem from="1674151276475" duration="1932000" />
+      <workItem from="1674153237420" duration="42000" />
+      <workItem from="1674231901542" duration="879000" />
     </task>
     <task id="LOCAL-00001" summary="inti commit">
       <created>1671124722078</created>
@@ -286,7 +288,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674070099739</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="updaet task6 homeworks">
+      <created>1674153269401</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1674153269401</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -315,7 +324,8 @@
     <MESSAGE value="Task4 complite" />
     <MESSAGE value="Lecture5" />
     <MESSAGE value="seminar6 &amp; homework6 files" />
-    <option name="LAST_COMMIT_MESSAGE" value="seminar6 &amp; homework6 files" />
+    <MESSAGE value="updaet task6 homeworks" />
+    <option name="LAST_COMMIT_MESSAGE" value="updaet task6 homeworks" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
