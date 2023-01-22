@@ -4,24 +4,33 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c9520472-f4c4-49e7-bbb2-dfecfaf1f5ba" name="Changes" comment="update homeworks task6&#10;last changes, task2(complite)">
-      <change afterPath="$PROJECT_DIR$/src/seminars/seminar5/task1/controller/StudentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminars/seminar5/task1/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminars/seminar5/task1/service/TeacherService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminars/seminar5/task1/ui/TeacherView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminars/seminar5/task1/ui/UserView.java" afterDir="false" />
+    <list default="true" id="c9520472-f4c4-49e7-bbb2-dfecfaf1f5ba" name="Changes" comment="update homeworks task6&#10;last changes, task2(release)">
+      <change afterPath="$PROJECT_DIR$/src/homeworks/final_project/MainApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homeworks/final_project/controller/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homeworks/final_project/data_handler/DataReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homeworks/final_project/data_handler/DataWriter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homeworks/final_project/model/Contractor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homeworks/final_project/model/comm/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homeworks/final_project/model/comm/Communication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homeworks/final_project/model/comm/Email.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homeworks/final_project/model/comm/GetCommunication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homeworks/final_project/model/comm/Phone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homeworks/final_project/model/comm/SetCommunication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homeworks/final_project/model/comm/TelegramNikName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homeworks/final_project/model/comm/VK_URL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homeworks/final_project/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homeworks/final_project/service/Add.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homeworks/final_project/service/AddService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homeworks/final_project/service/DataService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homeworks/final_project/service/Get.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homeworks/final_project/service/GetService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homeworks/final_project/service/Remove.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homeworks/final_project/service/RemoveService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homeworks/final_project/view/AddView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homeworks/final_project/view/GetView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homeworks/final_project/view/RemoveView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homeworks/final_project/view/View.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homeworks/task6/MainTask1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeworks/task6/MainTask1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homeworks/task6/MainTask2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeworks/task6/MainTask2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homeworks/task6/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeworks/task6/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homeworks/task6/task2/BaseList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeworks/task6/task2/BaseList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homeworks/task6/task2/CustomList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeworks/task6/task2/CustomList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homeworks/task6/task2/ImmutableList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeworks/task6/task2/ImmutableList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homeworks/task6/task2/MutableList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeworks/task6/task2/MutableList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/seminars/seminar5/task1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/seminars/seminar5/task1/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/seminars/seminar5/task1/service/DataService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/seminars/seminar5/task1/service/DataService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/seminars/seminar5/task1/service/StudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/seminars/seminar5/task1/service/StudentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/seminars/seminar5/task1/ui/StudentView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/seminars/seminar5/task1/ui/StudentView.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,8 +45,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -57,6 +66,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
@@ -66,6 +76,9 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="homeworks.final_project.exception" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Sh1rer\Desktop\OOP_Java\geekbrains\src\seminars\seminar6\task1" />
       <recent name="C:\Users\Sh1rer\Desktop\OOP_Java\geekbrains\src\lectures\lecture5\task3" />
@@ -77,13 +90,26 @@
       <recent name="C:\Users\Sh1rer\Desktop\OOP_Java\geekbrains\src\homeworks\task2\writerPatterns" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MainTask2">
+  <component name="RunManager" selected="Application.MainApp">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="seminars.seminar5.task1.Main" />
       <module name="geekbrains" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="seminars.seminar5.task1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homeworks.final_project.MainApp" />
+      <module name="geekbrains" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homeworks.final_project.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,19 +143,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="seminars.seminar6.task1.lsp.Test" />
-      <module name="geekbrains" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="seminars.seminar6.task1.lsp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="seminars.seminar6.task1.dip.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="seminars.seminar6.task1.dip.Main" />
       <module name="geekbrains" />
@@ -145,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainApp" />
         <item itemvalue="Application.MainTask2" />
         <item itemvalue="Application.MainTask1" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.seminars.seminar6.task1.dip.Main" />
-        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -193,7 +206,11 @@
       <workItem from="1674069413614" duration="699000" />
       <workItem from="1674151276475" duration="1932000" />
       <workItem from="1674153237420" duration="42000" />
-      <workItem from="1674231901542" duration="11333000" />
+      <workItem from="1674231901542" duration="12164000" />
+      <workItem from="1674249854269" duration="133000" />
+      <workItem from="1674288392644" duration="19889000" />
+      <workItem from="1674329349024" duration="3595000" />
+      <workItem from="1674371985236" duration="19350000" />
     </task>
     <task id="LOCAL-00001" summary="inti commit">
       <created>1671124722078</created>
@@ -314,7 +331,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674233017329</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="update homeworks task6&#10;last changes, task2(release)">
+      <created>1674248877950</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1674248877950</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -345,7 +369,8 @@
     <MESSAGE value="seminar6 &amp; homework6 files" />
     <MESSAGE value="updaet task6 homeworks" />
     <MESSAGE value="update homeworks task6&#10;last changes, task2(complite)" />
-    <option name="LAST_COMMIT_MESSAGE" value="update homeworks task6&#10;last changes, task2(complite)" />
+    <MESSAGE value="update homeworks task6&#10;last changes, task2(release)" />
+    <option name="LAST_COMMIT_MESSAGE" value="update homeworks task6&#10;last changes, task2(release)" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
