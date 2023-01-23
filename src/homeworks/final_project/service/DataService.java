@@ -9,9 +9,7 @@ public interface DataService {
 
     void addContractor(Contractor contractor);
 
-    List<Communication> addCommunication(Communication communication);
-
-    void addCommunicationToContractor(String name, Communication communication);
+    void addCommunicationToContractor(String name, String com);
 
     void removeContractor(String name);
 

@@ -3,7 +3,6 @@ package homeworks.final_project.service;
 import homeworks.final_project.data_handler.DataReader;
 import homeworks.final_project.data_handler.DataWriter;
 import homeworks.final_project.model.Contractor;
-import homeworks.final_project.model.communications.Communication;
 
 import java.util.List;
 
@@ -13,15 +12,11 @@ public class ContractorService implements DataService{
         DataWriter.dataWrite(contractor);
     }
 
-    public List<Communication> addCommunication(Communication communication) {
-        return List.of(communication);
-    }
-
-    public void addCommunicationToContractor(String name, Communication communication) {
+    public void addCommunicationToContractor(String name, String comm) {
         List<Contractor> list = DataReader.read();
         for (Contractor contractor: list) {
-            if (contractor.getName().equalsIgnoreCase(name)) {
-                contractor.getList().add(communication);
+            if (contractor.getName().equals(name)) {
+                contractor.setMap(comm);
                 DataWriter.reWriteData(list);
                 return;
             }
@@ -35,8 +30,8 @@ public class ContractorService implements DataService{
     public Contractor getContractorByName(String name) {
         List<Contractor> list = DataReader.read();
         for (Contractor contractor : list) {
-            if (contractor.getName().equalsIgnoreCase(name)) {
-                return new Contractor(contractor.getName(), contractor.getList());
+            if (contractor.getName().equals(name)) {
+                return contractor;
             }
         }
         return null;
@@ -46,11 +41,11 @@ public class ContractorService implements DataService{
         DataWriter.removeData(name);
     }
 
-    public void removeCommunicationToContractor(String name, Communication communication) {
+    public void removeCommunicationToContractor(String name, String comm) {
         List<Contractor> list = DataReader.read();
         for (Contractor contractor: list) {
-            if (contractor.getName().equalsIgnoreCase(name)) {
-                contractor.getList().remove(communication);
+            if (contractor.getName().equals(name)) {
+                contractor.setMap(name, comm);
                 DataWriter.reWriteData(list);
                 return;
             }

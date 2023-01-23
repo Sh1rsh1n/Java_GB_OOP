@@ -1,13 +1,11 @@
 package homeworks.final_project.data_handler;
 
 import homeworks.final_project.model.Contractor;
-import homeworks.final_project.model.communications.*;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 
 public class DataReader implements Data{
 
@@ -19,13 +17,14 @@ public class DataReader implements Data{
             while ((str = bf.readLine()) != null) {
 
                 String[] array = str.split(",");
-
-                List<Communication> communications = new ArrayList<>();
-                for (int i = 1; i < array.length; i++) {
-                    communications.add(checkCommunication(array[i]));
+                
+                Contractor contractor = new Contractor(array[0]);
+                if (array.length > 1){ 
+                    for (int i = 1; i < array.length; i++) {
+                        contractor.getMap().put(checkCommunication(array[i]), array[i]);
+                    }
                 }
-
-                list.add(new Contractor(array[0], communications));
+                list.add(contractor);
             }
         } catch (IOException e) {
             throw new RuntimeException(e);
@@ -34,17 +33,17 @@ public class DataReader implements Data{
     }
 
 
-    private static Communication checkCommunication(String comm) {
+    private static String checkCommunicationType(String comm) {
         if (comm.matches("^[_A-Za-z0-9-\\+]+(\\.[_A-Za-z0-9-]+)*@[A-Za-z0-9-]+(\\.[A-Za-z0-9]+)*(\\.[A-Za-z]{2,})$"))
-            return new Email(comm);
+            return "Phone";
         if (comm.matches("(\\+*)\\d{11}"))
-            return new Phone(comm);
+            return "Email";
         if (comm.matches(".*\\B@(?=\\w{5,64}\\b)[a-zA-Z0-9]+(?:_[a-zA-Z0-9]+)*.*"))
-            return new TelegramNikName(comm);
+            return "Telegram";
         if (comm.matches("^https://vk.com/[a-z0-9]+"))
-            return new VK_URL(comm);
+            return "VKontakte";
         if (comm.matches("\\w+[-]\\d+")) {
-            return new Address(comm);
+            return "Address";
         }
         return null;
     }

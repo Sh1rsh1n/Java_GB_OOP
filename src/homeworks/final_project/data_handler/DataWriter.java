@@ -1,21 +1,25 @@
 package homeworks.final_project.data_handler;
 
 import homeworks.final_project.model.Contractor;
-import homeworks.final_project.model.communications.Communication;
 
 import java.io.FileWriter;
 import java.io.IOException;
-import java.util.List;
+import java.util.*;
 
 public class DataWriter implements Data{
 
     public static void dataWrite(Contractor contractor) {
+    
         try (FileWriter writer = new FileWriter(path, true)) {
             writer.write(contractor.getName());
             writer.write(",");
-            for (Communication getCommunication : contractor.getList()) {
-                writer.write(getCommunication.getCommunication());
-                writer.write(",");
+            for (Map.Entry<String, List<String>> entry: contractor.getMap().entrySet()) {
+                if (entry.getValue() != null) {
+                    for (String com : entry.getValue()){
+                        writer.write(com);
+                        writer.write(",");
+                    }
+                }
             }
             writer.write("\n");
             writer.flush();
@@ -26,9 +30,9 @@ public class DataWriter implements Data{
 
     public static void removeData(String name) {
         List<Contractor> list = DataReader.read();
-        for (Contractor contr: list) {
-            if (contr.getName().equals(name)) {
-                list.remove(contr);
+        for (Contractor contractor: list) {
+            if (contractor.getName().equals(name)) {
+                list.remove(contractor);
                 DataWriter.reWriteData(list);
                 return;
             }
@@ -40,9 +44,13 @@ public class DataWriter implements Data{
             for (Contractor contractor: list) {
                 writer.write(contractor.getName());
                 writer.write(",");
-                for (Communication getCommunication : contractor.getList()) {
-                    writer.write(getCommunication.getCommunication());
-                    writer.write(",");
+                for (Map.Entry<String, List<String>> entry: contractor.getMap().entrySet()) {
+                    if (entry.getValue() != null) {
+                        for (String com : entry.getValue()){
+                            writer.write(com);
+                            writer.write(",");
+                        }
+                    }
                 }
                 writer.write("\n");
             }
