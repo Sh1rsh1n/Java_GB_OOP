@@ -4,33 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c9520472-f4c4-49e7-bbb2-dfecfaf1f5ba" name="Changes" comment="update homeworks task6&#10;last changes, task2(release)">
-      <change afterPath="$PROJECT_DIR$/src/homeworks/final_project/MainApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homeworks/final_project/controller/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homeworks/final_project/data_handler/DataReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homeworks/final_project/data_handler/DataWriter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homeworks/final_project/model/Contractor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homeworks/final_project/model/comm/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homeworks/final_project/model/comm/Communication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homeworks/final_project/model/comm/Email.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homeworks/final_project/model/comm/GetCommunication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homeworks/final_project/model/comm/Phone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homeworks/final_project/model/comm/SetCommunication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homeworks/final_project/model/comm/TelegramNikName.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homeworks/final_project/model/comm/VK_URL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homeworks/final_project/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homeworks/final_project/service/Add.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homeworks/final_project/service/AddService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homeworks/final_project/service/DataService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homeworks/final_project/service/Get.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homeworks/final_project/service/GetService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homeworks/final_project/service/Remove.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homeworks/final_project/service/RemoveService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homeworks/final_project/view/AddView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homeworks/final_project/view/GetView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homeworks/final_project/view/RemoveView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homeworks/final_project/view/View.java" afterDir="false" />
+    <list default="true" id="c9520472-f4c4-49e7-bbb2-dfecfaf1f5ba" name="Changes" comment="final project update #1">
+      <change afterPath="$PROJECT_DIR$/src/homeworks/final_project/ui/GetContractorInfo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homeworks/final_project/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeworks/final_project/MainApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homeworks/final_project/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeworks/final_project/controller/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homeworks/final_project/data_handler/DataReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeworks/final_project/data_handler/DataReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homeworks/final_project/data_handler/DataWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeworks/final_project/data_handler/DataWriter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homeworks/final_project/model/Contractor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeworks/final_project/model/Contractor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homeworks/final_project/service/ContractorService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homeworks/final_project/service/DataService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeworks/final_project/service/DataService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homeworks/final_project/ui/CommumicationMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeworks/final_project/ui/CommunicationMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homeworks/final_project/ui/ContractorMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeworks/final_project/ui/ContractorMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homeworks/final_project/view/ContractorView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeworks/final_project/view/ContractorView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homeworks/final_project/view/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeworks/final_project/view/View.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,12 +32,17 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -210,7 +202,8 @@
       <workItem from="1674249854269" duration="133000" />
       <workItem from="1674288392644" duration="19889000" />
       <workItem from="1674329349024" duration="3595000" />
-      <workItem from="1674371985236" duration="19350000" />
+      <workItem from="1674371985236" duration="27186000" />
+      <workItem from="1674487570760" duration="11916000" />
     </task>
     <task id="LOCAL-00001" summary="inti commit">
       <created>1671124722078</created>
@@ -338,7 +331,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674248877950</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="final project update #1">
+      <created>1674414842124</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1674414842124</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -349,7 +349,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/final_project" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -370,7 +382,8 @@
     <MESSAGE value="updaet task6 homeworks" />
     <MESSAGE value="update homeworks task6&#10;last changes, task2(complite)" />
     <MESSAGE value="update homeworks task6&#10;last changes, task2(release)" />
-    <option name="LAST_COMMIT_MESSAGE" value="update homeworks task6&#10;last changes, task2(release)" />
+    <MESSAGE value="final project update #1" />
+    <option name="LAST_COMMIT_MESSAGE" value="final project update #1" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

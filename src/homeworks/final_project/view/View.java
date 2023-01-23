@@ -1,13 +1,12 @@
 package homeworks.final_project.view;
 
 import homeworks.final_project.model.Contractor;
-import homeworks.final_project.model.communications.Communication;
 
 public interface View {
 
     void addContractor(Contractor contractor);
 
-    void addCommunication(String name, Communication communication);
+    void addCommunication(String name, String communication);
 
     void showAllContractors();
 
@@ -15,5 +14,5 @@ public interface View {
 
     void removeContractor(String name);
 
-    void removeCommunicaton(String name, Communication communication);
+    void removeCommunicaton(String name, String communication);
 }

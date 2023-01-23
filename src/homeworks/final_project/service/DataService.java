@@ -1,21 +1,55 @@
 package homeworks.final_project.service;
 
+import homeworks.final_project.data_handler.DataReader;
+import homeworks.final_project.data_handler.DataWriter;
 import homeworks.final_project.model.Contractor;
-import homeworks.final_project.model.communications.Communication;
 
 import java.util.List;
 
-public interface DataService {
+public class DataService {
 
-    void addContractor(Contractor contractor);
+    public void addContractor(Contractor contractor) {
+        DataWriter.dataWrite(contractor);
+    }
 
-    void addCommunicationToContractor(String name, String com);
+    public void addCommunicationToContractor(String name, String comm) {
+        List<Contractor> list = DataReader.read();
+        for (Contractor contractor: list) {
+            if (contractor.getName().equals(name)) {
+                contractor.setCommsMap(comm);
+                DataWriter.reWriteData(list);
+                return;
+            }
+        }
+    }
 
-    void removeContractor(String name);
+    public List<Contractor> getAllContractorsName() {
+        return DataReader.read();
+    }
 
-    void removeCommunicationToContractor(String name, Communication communication);
+    public Contractor getContractorByName(String name) {
+        List<Contractor> list = DataReader.read();
+        for (Contractor contractor : list) {
+            if (contractor.getName().equals(name)) {
+                return contractor;
+            }
+        }
+        return null;
+    }
 
-    List<Contractor> getAllContractorsName();
+    public void removeContractor(String name) {
+        DataWriter.removeData(name);
+    }
 
-    Contractor getContractorByName(String name);
+    public void removeCommunicationToContractor(String name, String comm) {
+        List<Contractor> list = DataReader.read();
+        for (Contractor contractor: list) {
+            if (contractor.getName().equals(name)) {
+                contractor.setCommsMap(comm);
+                DataWriter.reWriteData(list);
+                return;
+            }
+        }
+    }
+
 }

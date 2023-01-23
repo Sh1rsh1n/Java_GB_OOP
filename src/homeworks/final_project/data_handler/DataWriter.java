@@ -13,7 +13,7 @@ public class DataWriter implements Data{
         try (FileWriter writer = new FileWriter(path, true)) {
             writer.write(contractor.getName());
             writer.write(",");
-            for (Map.Entry<String, List<String>> entry: contractor.getMap().entrySet()) {
+            for (Map.Entry<String, List<String>> entry: contractor.getCommsMap().entrySet()) {
                 if (entry.getValue() != null) {
                     for (String com : entry.getValue()){
                         writer.write(com);
@@ -31,7 +31,7 @@ public class DataWriter implements Data{
     public static void removeData(String name) {
         List<Contractor> list = DataReader.read();
         for (Contractor contractor: list) {
-            if (contractor.getName().equals(name)) {
+            if (contractor.getName().equalsIgnoreCase(name)) {
                 list.remove(contractor);
                 DataWriter.reWriteData(list);
                 return;
@@ -44,7 +44,7 @@ public class DataWriter implements Data{
             for (Contractor contractor: list) {
                 writer.write(contractor.getName());
                 writer.write(",");
-                for (Map.Entry<String, List<String>> entry: contractor.getMap().entrySet()) {
+                for (Map.Entry<String, List<String>> entry: contractor.getCommsMap().entrySet()) {
                     if (entry.getValue() != null) {
                         for (String com : entry.getValue()){
                             writer.write(com);

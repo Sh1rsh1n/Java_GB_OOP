@@ -18,10 +18,11 @@ public class DataReader implements Data{
 
                 String[] array = str.split(",");
                 
-                Contractor contractor = new Contractor(array[0]);
+                Contractor contractor = new Contractor();
+                contractor.setName(array[0]);
                 if (array.length > 1){ 
                     for (int i = 1; i < array.length; i++) {
-                        contractor.getMap().put(checkCommunication(array[i]), array[i]);
+                        contractor.getCommsMap().get(checkCommunicationType(array[i])).add(array[i]);
                     }
                 }
                 list.add(contractor);
@@ -35,9 +36,9 @@ public class DataReader implements Data{
 
     private static String checkCommunicationType(String comm) {
         if (comm.matches("^[_A-Za-z0-9-\\+]+(\\.[_A-Za-z0-9-]+)*@[A-Za-z0-9-]+(\\.[A-Za-z0-9]+)*(\\.[A-Za-z]{2,})$"))
-            return "Phone";
-        if (comm.matches("(\\+*)\\d{11}"))
             return "Email";
+        if (comm.matches("(\\+*)\\d{11}"))
+            return "Phone";
         if (comm.matches(".*\\B@(?=\\w{5,64}\\b)[a-zA-Z0-9]+(?:_[a-zA-Z0-9]+)*.*"))
             return "Telegram";
         if (comm.matches("^https://vk.com/[a-z0-9]+"))
