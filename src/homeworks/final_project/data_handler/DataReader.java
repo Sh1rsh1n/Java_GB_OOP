@@ -7,45 +7,35 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.*;
 
+/*
+Класс DataReader, чтения данных из файла
+ */
 public class DataReader implements Data{
 
+    /*
+    метод, читает данные из файла
+     */
     public static List<Contractor> read() {
         List<Contractor> list = new ArrayList<>();
 
-        try (BufferedReader bf = new BufferedReader(new FileReader(path))) {
+        try (BufferedReader bf = new BufferedReader(new FileReader(path))) {    // читаем данные из файла
             String str;
             while ((str = bf.readLine()) != null) {
 
-                String[] array = str.split(",");
+                String[] array = str.split(",");    // разбиваем полученную строку на массив строк
                 
                 Contractor contractor = new Contractor();
-                contractor.setName(array[0]);
+                contractor.setName(array[0]);   // указываем имя контрагента
                 if (array.length > 1){ 
                     for (int i = 1; i < array.length; i++) {
-                        contractor.getCommsMap().get(checkCommunicationType(array[i])).add(array[i]);
+                        contractor.getCommsMap().get(contractor.checkCommunicationType(array[i])).add(array[i]);   // проверяем и добавляем, по типам способов связи, значения в списки.
                     }
                 }
-                list.add(contractor);
+                list.add(contractor);   // добавляем контрагента в список
             }
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
         return list;
-    }
-
-
-    private static String checkCommunicationType(String comm) {
-        if (comm.matches("^[_A-Za-z0-9-\\+]+(\\.[_A-Za-z0-9-]+)*@[A-Za-z0-9-]+(\\.[A-Za-z0-9]+)*(\\.[A-Za-z]{2,})$"))
-            return "Email";
-        if (comm.matches("(\\+*)\\d{11}"))
-            return "Phone";
-        if (comm.matches(".*\\B@(?=\\w{5,64}\\b)[a-zA-Z0-9]+(?:_[a-zA-Z0-9]+)*.*"))
-            return "Telegram";
-        if (comm.matches("^https://vk.com/[a-z0-9]+"))
-            return "VKontakte";
-        if (comm.matches("\\w+[-]\\d+")) {
-            return "Address";
-        }
-        return null;
     }
 }

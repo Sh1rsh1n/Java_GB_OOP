@@ -5,6 +5,9 @@ import homeworks.final_project.service.DataService;
 
 import java.util.Scanner;
 
+/*
+класс выводит интерфейс для добавления/удаления контрагента
+ */
 public class ContractorMenu implements BaseMenu {
 
     @Override
@@ -26,8 +29,8 @@ public class ContractorMenu implements BaseMenu {
 
                 System.out.println("Введите имя контрагента:");
                 System.out.print(">>>\t");
-                input = scanner.next();
-                contractor.setName(input);
+                String name = scanner.next();
+                contractor.setName(name);
 
                 while (true) {
                     System.out.println("Добавьте способ связи:\n" +
@@ -37,14 +40,14 @@ public class ContractorMenu implements BaseMenu {
                             "ВКонтакте: https://vk.com/username\n" +
                             "Адрес нахождения: Tverskaya-10");
                     System.out.print(">>>\t");
-                    input = scanner.next();
-                    contractor.setCommsMap(input);
+                    String comm = scanner.next();
+                    contractor.setCommsMap(comm);
 
                     System.out.println("Хотите добавить еще один способ связи?\nВведите \"Y\" - добавить ещё способ связи.\nВведите любой символ чтобы завершить добавление контрагента.\n");
                     System.out.print(">>>\t");
                     input = scanner.next();
 
-                    if (in.equalsIgnoreCase("Y")) {
+                    if (input.equalsIgnoreCase("Y")) {
                         contractor.setCommsMap(input);
                         continue;
                     }
@@ -53,15 +56,15 @@ public class ContractorMenu implements BaseMenu {
 
                 service.addContractor(contractor);
 
-                System.out.printf("Контрагент %s успешно добавлен.\n\n", addContractorName);
+                System.out.printf("Контрагент %s успешно добавлен.\n\n", name);
                 break;
             }
             if (input.equals("2")) {
                 System.out.println("Введите имя контрагента:");
                 System.out.print(">>>\t");
-                input = scanner.next();
-                service.removeContractor(input);
-                System.out.printf("Контрагент %s успешно удален\n", removeContractorName);
+                String name = scanner.next();
+                service.removeContractor(name);
+                System.out.printf("Контрагент %s успешно удален\n", name);
                 break;
             }
             if (input.equals("3")) {
@@ -75,19 +78,4 @@ public class ContractorMenu implements BaseMenu {
             System.out.println("Некорректный ввод, попробуйте еще раз.");
         }
     }
-
-//    private Communication checkCommunication(String comm) throws NotFoundCommunicationException {
-//        if (comm.matches("^[_A-Za-z0-9-\\+]+(\\.[_A-Za-z0-9-]+)*@[A-Za-z0-9-]+(\\.[A-Za-z0-9]+)*(\\.[A-Za-z]{2,})$"))
-//            return new Email(comm);
-//        if (comm.matches("(\\+*)\\d{11}"))
-//            return new Phone(comm);
-//        if (comm.matches(".*\\B@(?=\\w{5,64}\\b)[a-zA-Z0-9]+(?:_[a-zA-Z0-9]+)*.*"))
-//            return new TelegramNikName(comm);
-//        if (comm.matches("^https://vk.com/[a-z0-9]+"))
-//            return new VK_URL(comm);
-//        if (comm.matches("\\w+[-]\\d+")) {
-//            return new Address(comm);
-//        }
-//        throw new NotFoundCommunicationException("Некорректный способ связи.");
-//    }
 }

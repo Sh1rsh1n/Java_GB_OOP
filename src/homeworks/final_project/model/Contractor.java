@@ -1,7 +1,14 @@
 package homeworks.final_project.model;
 
+import homeworks.final_project.exception.IncorrectCommunicationTypeException;
+
 import java.util.*;
 
+/*
+Класс - описание контрагента
+@name - имя контрагента
+@commsMap - список способов связи с контрагентом
+ */
 public class Contractor {
 
     private String name;
@@ -28,14 +35,19 @@ public class Contractor {
         return commsMap;
     }
 
+    /*
+    Добавление способа связи
+     */
     public void setCommsMap(String comm) {
-        String key = checkCommunicationType(comm);
-        if (commsMap.containsKey(key) && !commsMap.get(key).isEmpty()) {
-            commsMap.get(key).add(comm);
-        } else if (key == null) {
-
+        String key = checkCommunicationType(comm); // проверяем корректность ввода значения и присвоили возвращаемое значение
+        if (key == null) {  // если, вдруг, пришел null, кидаем и обрабатываем исключение
+            try {
+                throw new IncorrectCommunicationTypeException("Указан некорректный способ связи");
+            } catch (IncorrectCommunicationTypeException e) {
+                e.printStackTrace();
+            }
         } else {
-            commsMap.get(key).add(comm);
+            commsMap.get(key).add(comm);    // добавляем значение в список по указанному ключу
         }
     }
 
@@ -56,12 +68,16 @@ public class Contractor {
         return sb.toString();
     }
 
-    private String checkCommunicationType(String comm) {
+    /*
+    проверка корректности ввода данных способа связи,
+    возвращает "ключ", по которому будет добавлено значение в список
+     */
+    public String checkCommunicationType(String comm) {
         if (comm.matches("^[_A-Za-z0-9-\\+]+(\\.[_A-Za-z0-9-]+)*@[A-Za-z0-9-]+(\\.[A-Za-z0-9]+)*(\\.[A-Za-z]{2,})$"))
             return "Phone";
-        if (comm.matches("(\\+*)\\d{11}"))
+        if (comm.matches("\\d{11}"))
             return "Email";
-        if (comm.matches(".*\\B@(?=\\w{5,64}\\b)[a-zA-Z0-9]+(?:_[a-zA-Z0-9]+)*.*"))
+        if (comm.matches("^[@]\\w+"))
             return "Telegram";
         if (comm.matches("^https://vk.com/[a-z0-9]+"))
             return "VKontakte";

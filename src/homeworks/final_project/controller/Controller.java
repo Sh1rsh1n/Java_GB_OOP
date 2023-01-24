@@ -1,7 +1,5 @@
 package homeworks.final_project.controller;
 
-
-import homeworks.final_project.exceptions.NotFoundCommunicationException;
 import homeworks.final_project.service.DataService;
 import homeworks.final_project.ui.*;
 
@@ -17,7 +15,7 @@ public class Controller {
         view = new BaseMenu[]{new ContractorMenu(), new CommunicationMenu(), new GetContractorInfo()};
     }
 
-    public void run() throws NotFoundCommunicationException {
+    public void run() {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Приветствую тебя, пользователь!!!\nСпасибо, что выбрали приложение \"Контрагент\"\n");
 
