@@ -27,16 +27,6 @@ public class DataService {
         return DataReader.read();
     }
 
-    public Contractor getContractorByName(String name) {
-        List<Contractor> list = DataReader.read();
-        for (Contractor contractor : list) {
-            if (contractor.getName().equals(name)) {
-                return contractor;
-            }
-        }
-        return null;
-    }
-
     public void removeContractor(String name) {
         DataWriter.removeData(name);
     }
@@ -45,9 +35,14 @@ public class DataService {
         List<Contractor> list = DataReader.read();
         for (Contractor contractor: list) {
             if (contractor.getName().equals(name)) {
-                contractor.setCommsMap(comm);
-                DataWriter.reWriteData(list);
-                return;
+                for (Map.Entry<String, <List<String>> entry : contractor.getCommsMap().entrySet());
+                    if (entry.getKey().equals(comm)) {
+                        entry.getValue().clear();
+                        
+                        DataWriter.reWriteData(list);
+                        return;
+                    }
+                }
             }
         }
     }

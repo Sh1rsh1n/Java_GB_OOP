@@ -7,27 +7,27 @@ import java.util.Scanner;
 
 public class ContractorMenu implements BaseMenu {
 
-    Scanner scanner = new Scanner(System.in);
-
     @Override
     public void showMenu(DataService service) {
+        Scanner scanner = new Scanner(System.in);
+        
         while (true) {
-            System.out.println("Меню создания и удаления контрагента\n" +
+            System.out.println("Меню добавления и удаления контрагента\n" +
                     "Введите цифру, нужного действия:\n" +
                     "1. Добавить контрагента.\n" +
                     "2. Удалить контрагента.\n" +
                     "3. Вернуться в предыдущее меню.\n" +
                     "0. Выйти из программы.");
             System.out.print(">>>\t");
-            int input = scanner.nextInt();
+            String input = scanner.next();
 
-            if (input == 1) {
+            if (input.equals("1")) {
                 Contractor contractor = new Contractor();
 
                 System.out.println("Введите имя контрагента:");
                 System.out.print(">>>\t");
-                String addContractorName = scanner.next();
-                contractor.setName(addContractorName);
+                input = scanner.next();
+                contractor.setName(input);
 
                 while (true) {
                     System.out.println("Добавьте способ связи:\n" +
@@ -37,15 +37,15 @@ public class ContractorMenu implements BaseMenu {
                             "ВКонтакте: https://vk.com/username\n" +
                             "Адрес нахождения: Tverskaya-10");
                     System.out.print(">>>\t");
-                    String communication = scanner.next();
-                    contractor.setCommsMap(communication);
+                    input = scanner.next();
+                    contractor.setCommsMap(input);
 
                     System.out.println("Хотите добавить еще один способ связи?\nВведите \"Y\" - добавить ещё способ связи.\nВведите любой символ чтобы завершить добавление контрагента.\n");
                     System.out.print(">>>\t");
-                    String in = scanner.next();
+                    input = scanner.next();
 
                     if (in.equalsIgnoreCase("Y")) {
-                        contractor.setCommsMap(communication);
+                        contractor.setCommsMap(input);
                         continue;
                     }
                     break;
@@ -56,22 +56,23 @@ public class ContractorMenu implements BaseMenu {
                 System.out.printf("Контрагент %s успешно добавлен.\n\n", addContractorName);
                 break;
             }
-            if (input == 2) {
+            if (input.equals("2")) {
                 System.out.println("Введите имя контрагента:");
                 System.out.print(">>>\t");
-                String removeContractorName = scanner.next();
-                service.removeContractor(removeContractorName);
+                input = scanner.next();
+                service.removeContractor(input);
                 System.out.printf("Контрагент %s успешно удален\n", removeContractorName);
                 break;
             }
-            if (input == 3) {
+            if (input.equals("3")) {
                 System.out.println("Выход в предыдущее меню.");
                 break;
             }
-            if (input == 0) {
+            if (input.equals("0")) {
                 System.out.println("Выход из программы.");
                 return;
             }
+            System.out.println("Некорректный ввод, попробуйте еще раз.");
         }
     }
 

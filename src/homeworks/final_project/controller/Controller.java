@@ -19,7 +19,7 @@ public class Controller {
 
     public void run() throws NotFoundCommunicationException {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Приветствую тебя, пользователь!!!\nСпасибо, что выбрали наше приложение: \"Контрагент\"\n");
+        System.out.println("Приветствую тебя, пользователь!!!\nСпасибо, что выбрали приложение \"Контрагент\"\n");
 
         while (true) {
             System.out.println("Введите цифру необходимого действия действие:\n" +
