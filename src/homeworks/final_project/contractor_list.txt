@@ -1,0 +1,3 @@
+FavoritMotors,@favorit,Koptevo-22,74951230000,
+alex,@alex,Friday-13,
+Anna,@anna,
