@@ -1,23 +1,65 @@
 package homeworks.final_project.service;
 
+import homeworks.final_project.data_handler.DataReader;
+import homeworks.final_project.data_handler.DataWriter;
 import homeworks.final_project.model.Contractor;
-import homeworks.final_project.model.communications.Communication;
 
 import java.util.List;
+import java.util.Map;
 
-public interface DataService {
+public class DataService {
 
-    void addContractor(Contractor contractor);
+    /*
+    добавляем контрагента в файл
+     */
+    public void addContractor(Contractor contractor) {
+        DataWriter.dataWrite(contractor);
+    }
 
-    List<Communication> addCommunication(Communication communication);
+    /*
+    добавляем способ связи контрагенту
+     */
+    public void addCommunicationToContractor(String name, String comm) {
+        List<Contractor> list = DataReader.read();
+        for (Contractor contractor : list) {
+            if (contractor.getName().equals(name)) {
+                contractor.setCommsMap(comm);
+                DataWriter.reWriteData(list);
+                return;
+            }
+        }
+    }
 
-    void addCommunicationToContractor(String name, Communication communication);
+    /*
+    получаем список всех контрагентов
+     */
+    public List<Contractor> getAllContractorsName() {
+        return DataReader.read();
+    }
 
-    void removeContractor(String name);
+    /*
+    удаляем контрагента
+     */
+    public void removeContractor(String name) {
+        DataWriter.removeData(name);
+    }
 
-    void removeCommunicationToContractor(String name, Communication communication);
-
-    List<Contractor> getAllContractorsName();
-
-    Contractor getContractorByName(String name);
+    /*
+    удаляем способ связи у контрагента
+     */
+    public void removeCommunicationToContractor(String name, String comm) {
+        List<Contractor> list = DataReader.read();
+        for (Contractor contractor : list) {
+            if (contractor.getName().equals(name)) {
+                for (Map.Entry<String, List<String>> entry : contractor.getCommsMap().entrySet()) {
+                    if (entry.getKey().equals(comm)) {
+                        entry.getValue().clear();
+                        DataWriter.reWriteData(list);
+                        return;
+                    }
+                }
+            }
+        }
+    }
 }
+
